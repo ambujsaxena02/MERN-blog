@@ -20,4 +20,4 @@ app.use("/api", (req, res, next) => {
 
 //define port
 const PORT=process.env.PORT || 5000;
-app.listen(PORT, () => console.log("app started at 5001..."));
+app.listen(PORT, () => console.log("app started at ${PORT}..."));
